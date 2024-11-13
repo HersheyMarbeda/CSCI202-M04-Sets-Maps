@@ -20,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		C031B0602CE51DD20054CD5C /* Sets-Maps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Sets-Maps"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C031B08A2CE53B350054CD5C /* Random-Words.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Random-Words.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -44,6 +45,7 @@
 		C031B0572CE51DD10054CD5C = {
 			isa = PBXGroup;
 			children = (
+				C031B08A2CE53B350054CD5C /* Random-Words.txt */,
 				C031B0622CE51DD20054CD5C /* Sets-Maps */,
 				C031B0612CE51DD20054CD5C /* Products */,
 			);
@@ -93,6 +95,7 @@
 				TargetAttributes = {
 					C031B05F2CE51DD10054CD5C = {
 						CreatedOnToolsVersion = 16.1;
+						LastSwiftMigration = 1610;
 					};
 				};
 			};
@@ -244,20 +247,25 @@
 		C031B0682CE51DD20054CD5C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY6D9Z4JV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
 		C031B0692CE51DD20054CD5C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3KY6D9Z4JV;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Release;
 		};
