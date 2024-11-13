@@ -9,7 +9,8 @@
     //  *   ------------------------- About the Program ------------------------- *
     //  *   File Name: US-States.cpp                                              *
     //  *   Import Filename: US-States-With-Capitals.txt                          *
-    //  *   Program Assignment Name:
+    //  *   Program Assignment Name: US States and Capitals                       *
+    //  *   Last Date Updated: 11.13.2024                                         *
     //  *                                                                         *
     //  *   Program Assignment Description:                                       *
     //  *   This program reads the file US-States-With-Capitals.txt               *
