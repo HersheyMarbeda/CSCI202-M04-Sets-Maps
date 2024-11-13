@@ -7,7 +7,7 @@
     //  *   College: Ivy Tech Community College                                   *
     //  *                                                                         *
     //  *   ------------------------- About the Program ------------------------- *
-    //  *   File Name: US-States.cpp                                              *
+    //  *   File Name: M04-1-USA-HBM.cpp                                           *
     //  *   Import Filename: US-States-With-Capitals.txt                          *
     //  *   Program Assignment Name: US States and Capitals                       *
     //  *   Last Date Updated: 11.13.2024                                         *
