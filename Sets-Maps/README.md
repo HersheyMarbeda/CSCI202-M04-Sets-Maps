@@ -1,6 +1,6 @@
 # Assignment Description
-1. Write a program that reads words from a text file and displays all the nonduplicate words in ascending order.
-2. Write a program to store pairs of each state and its capital in a map. Your program should prompt the user to enter a state and should display the capital for the state.
+1. Write a program that reads words from a text file and displays all unique words in ascending order.
+2. Write a program to store pairs of each state and its capital in a map. Your program should prompt the user to enter a state and display the capital of that state.
 
 ## My Method
-1. I used <map> to store the states' abbreviations and capitals in the txt file. Then, I hardcoded the state abbreviations and state full names. I think that using <map> in this problem is a great way since the <map> is a key-pair structure. In the problem, I assumed that the abbreviation (eg. CA) is a key and is pair to state's capital (eg. Sacramento). The only thing I had a problem is when I tried to read the file with full state name. There are some states that has two names and it wouldn't really going to help me to sort three string in <map> so, I hardcoded it. (eg. {"CA", "California"}. 
+1. I used a `<map>` to store state abbreviations and their corresponding capitals from the text file. I also hardcoded the state abbreviations along with the full names of the states. I believe that using a `<map>` for this problem is effective since it is a key-value structure. In this case, I treated the abbreviation (e.g., "CA") as the key, paired with the state's capital (e.g., "Sacramento").  However, I encountered a challenge when trying to read the file with the full names of the states. Some states have two names, which made it difficult to sort them in the `<map>`. To simplify the process, I decided to hardcode the abbreviations along with their full state names (e.g., `{"CA", "California"}`).
